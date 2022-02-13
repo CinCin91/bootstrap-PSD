@@ -23,7 +23,9 @@ header {
     font-family: "Roboto";
   }
   #search {
-      padding-left: 0.5rem;
+      
+      height: 21px;
+      width: 21px;
   }
   #login {
       text-decoration: none;
@@ -67,3 +69,101 @@ header {
     text-decoration: none;
     padding: 10px 55px;
   }
+  /* services */
+
+#services {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+   .slika{
+    margin-top: 56px;
+    width: 77px;
+    height: 57px;
+    margin-bottom: 49px;
+    
+    }
+  #services h4 {
+    font-size: 35px;
+    color: #1a2940;
+    font-weight: 500;
+    font-family: "Roboto";
+    margin-bottom: 18px;
+  } 
+  
+  #services p {
+    font-size: 15px;
+    color: #a8b9c0;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-bottom: 14px;
+  }
+  .linija {
+    width: 150px;
+    height: 1px;
+    background-color: #00c6bf;
+  }
+
+  #broj {
+    width: 78px;
+    height: 194px;
+    top: 0;
+      left: 0;
+
+  }
+
+  #olovka {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    top: 135px;
+    left: 210px;
+    
+  }
+  .service1 {
+    position: relative;
+    
+  }
+  #broj2 {
+    width: 131px;
+    height: 194px;
+    top: 0;
+      left: 0;
+
+
+  }
+  #monitor {
+    position: absolute;
+    width: 71px;
+    height: 55px;
+    top: 135px;
+    left: 180px;
+  
+  }
+
+  #broj3 {
+    width: 130px;
+    height: 197px;
+    z-index: 1;
+  }
+    #utikac {
+      position: absolute;
+      width: 63px;
+      height: 58px;
+      border-radius: 1px;
+      top: 135px;
+      left: 195px;
+      z-index: 2;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
