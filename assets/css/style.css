@@ -73,7 +73,7 @@ header {
 
 #services {
   text-align: center;
-  margin-bottom: 60px;
+ 
 }
 
    .slika{
@@ -105,6 +105,8 @@ header {
   }
 
   #broj {
+    position: relative;
+    
     width: 78px;
     height: 194px;
     top: 0;
@@ -116,15 +118,19 @@ header {
     position: absolute;
     width: 59px;
     height: 59px;
-    top: 135px;
-    left: 210px;
+    top: 41%;
+    left: 48%;
+
     
   }
   .service1 {
     position: relative;
+    margin-bottom: 50px;
+    
     
   }
   #broj2 {
+    
     width: 131px;
     height: 194px;
     top: 0;
@@ -136,25 +142,84 @@ header {
     position: absolute;
     width: 71px;
     height: 55px;
-    top: 135px;
-    left: 180px;
+    top: 42%;
+    left: 42%;
   
   }
 
   #broj3 {
     width: 130px;
     height: 197px;
-    z-index: 1;
+    
   }
     #utikac {
       position: absolute;
       width: 63px;
       height: 58px;
       border-radius: 1px;
-      top: 135px;
-      left: 195px;
-      z-index: 2;
+      top: 40%;
+      left: 44%;
+      
     }
+    .naslov {
+      font-size: 20px;
+      color: #ffc501;
+      font-weight: 500;
+      font-family: "Roboto";
+      margin-top: 34px;
+      
+
+    }
+    .paragraf {
+      width: 303px;
+      height: 74px;
+      font-size: 15px;
+      line-height: 30px;
+      color: #a8b9c0;
+      font-weight: 400;
+      font-family: "Roboto";
+      text-align: center;
+      margin: auto;
+      
+    }
+
+    /* porofolio */
+
+    .pozadina {
+      background:#eff7fa ;
+    }
+    #all-dugme {
+      width: 60px;
+      height: 44px;
+      border-radius: 10px;
+      background-color: #ff3150;
+      text-align: center;
+      font-size: 15px;
+      color: #ffc501;
+      font-weight: 400;
+      font-family: "Roboto";
+      padding: 10px;
+
+    }
+    section nav li a {
+      font-size: 15px;
+      color: #a8b9c0 !important;
+      font-weight: 400;
+      font-family: "Roboto";
+      
+    }
+    .linija2 {
+      width: 150px;
+      height: 1px;
+      background-color: #00c6bf;
+    }
+  .bg-custom{
+    background: #33d1cc;
+  }
+  .klasa {
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+  }
 
 
 
