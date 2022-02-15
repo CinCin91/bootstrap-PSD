@@ -280,20 +280,7 @@ font-family: "Roboto";
   margin:20px auto;
 }
 
-#order_me a{
-width: 208px;
-height: 45px;
-border-radius: 20px;
-background-color: #ff3150;
-font-size: 15px;
-color: #ffc501;
-font-weight: 500;
-font-family: "Roboto";
-padding: 10px 45px;
-text-align: center;
 
-
-}
 .p {
  max-width: 386px;
 height: 151px;
@@ -331,4 +318,36 @@ font-family: "Roboto";
  
 
 }
+#order_more {
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+  #order_more {
+    text-align: center;
+  }
+}
+ 
+@media only screen and (max-width: 600px) {
+  .klasa {
+    text-align: center;
+    max-width: auto;
+  }
+}
 
+#order_more a{
+  
+    font-size: 15px;
+    color: #ffc501;
+    font-weight: 500;
+    font-family: "Roboto";
+   
+    border-radius: 20px;
+    background-color: #ff3150;
+    text-decoration: none;
+    padding:10px 45px;
+}
+.klasa {
+  text-align: center;
+}
