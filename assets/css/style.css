@@ -218,6 +218,7 @@ header {
       background-color: #00c6bf;
     }
   .bg-custom{
+    
     background: #ffffff;
     width: 250px;
     height: 200px;
@@ -225,13 +226,99 @@ header {
 
   }
   .portfolio {
+    
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 50px; 
   }
   .bg-custom:hover {
     background-color: #30d0cb;
-    
-    
+ 
+  }
+
+  #want_more {
+    text-align: center;
+    padding-top: 52px;
+    padding-bottom: 60px;
   }
   
+  #want_more a{
+    text-align: center;
+    font-size: 15px;
+    color: #ffc501;
+    font-weight: 500;
+    font-family: "Roboto";
+   
+    border-radius: 20px;
+    background-color: #ff3150;
+    text-decoration: none;
+    padding:10px 45px;
+    
+  }
+  /* stuf about us */
+.linija3 {
+  width: 150px;
+height: 1px;
+background-color: #00c6bf;
+
+}
+.services h4 {
+  font-size: 35px;
+color: #1a2940;
+font-weight: 500;
+font-family: "Roboto";
+}
+.services p {
+  text-align: center;
+  font-size: 15px;
+  color: #a8b9c0;
+  font-weight: 400;
+  font-family: "Roboto";
+    max-width: 572px;
+  height: 25px;
+  margin:20px auto;
+}
+#order_me a{
+width: 208px;
+height: 45px;
+border-radius: 20px;
+background-color: #ff3150;
+font-size: 15px;
+color: #ffc501;
+font-weight: 500;
+font-family: "Roboto";
+padding: 10px 45px;
+text-align: center;
+
+
+}
+.p {
+  width: 386px;
+height: 151px;
+font-size: 15px;
+color: #a8b9c0;
+font-weight: 300;
+font-family: "Roboto";
+
+}
+.parent {
+  position: relative;
+  margin: auto;
+  
+  
+  
+  
+}
+.image1 {
+  position: relative;
+  display: inline;
+  width: 700px;
+  height: 405px;
+}
+
+.image2 {
+  position: absolute;
+  top: 25px;
+  left: 95px;
+
+}
