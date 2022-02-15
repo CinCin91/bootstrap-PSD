@@ -75,6 +75,9 @@ header {
   text-align: center;
  
 }
+.services {
+  text-align: center;
+}
 
    .slika{
     margin-top: 56px;
@@ -126,6 +129,7 @@ header {
   .service1 {
     position: relative;
     margin-bottom: 50px;
+    
     
     
   }
@@ -214,21 +218,20 @@ header {
       background-color: #00c6bf;
     }
   .bg-custom{
-    background: #33d1cc;
+    background: #ffffff;
+    width: 250px;
+    height: 200px;
+    
+
   }
-  .klasa {
+  .portfolio {
+    display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 50px;
+    grid-gap: 50px; 
   }
-
-
-
-
-
-
-
-
-
-
-
-
+  .bg-custom:hover {
+    background-color: #30d0cb;
+    
+    
+  }
+  
