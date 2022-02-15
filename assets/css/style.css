@@ -191,7 +191,7 @@ header {
     /* porofolio */
 
     .pozadina {
-      background:#2d7894 ;
+      background:#2c9cc5 ;
     }
     #all-dugme {
       width: 60px;
@@ -227,9 +227,9 @@ header {
 
   }
   .portfolio { 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: ;
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 50px; 
   }
   .bg-custom:hover {
