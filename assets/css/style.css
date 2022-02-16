@@ -206,6 +206,12 @@ header {
       padding: 10px;
 
     }
+      @media (max-width: 600px) {
+        .all-dugme {
+          display: none;
+        }
+      }
+   
     section nav li a {
       font-size: 15px;
       color: #a8b9c0 !important;
@@ -328,11 +334,22 @@ font-family: "Roboto";
     text-align: center;
   }
 }
+@media only screen and (max-width: 1000px) {
+  #order_more {
+    text-align: center;
+  }
+}
  
 @media only screen and (max-width: 600px) {
   .klasa {
     text-align: center;
     max-width: auto;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .p {
+    text-align: center;
+    margin: auto;
   }
 }
 
@@ -382,13 +399,31 @@ font-family: "Roboto";
     }
     .card-body {
       padding: 0;
-      height: 200px;
+      height: auto;
+      width: auto;
     }
     .card-group {
       padding-top: 58px;
       padding-bottom: 60px;
       gap: 30px;
-      
+    }
+    @media (max-width: 1000px) {
+      .card-group {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+      }
+    }
+    
+    @media (max-width: 600px) {
+      .card-group {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-items: auto;
+        padding: 10px;
+      }
     }
 
     .card img {
@@ -403,21 +438,51 @@ font-family: "Roboto";
       font-weight: 400;
       font-family: "Roboto";
       width: auto;
-      height: 50px;
+      height: auto;
       background-color: #00c6bf;
     }
     .card-text {
       padding: 34px 42px;
       text-align: center;
       width: auto;
-      height: 77px;
+      height: auto;
       font-size: 15px;
       color: #a8b9c0;
       font-weight: 400;
       font-family: "Roboto";
       
     }
-    
+    /* clients */
+    .clients {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 59px 57px 61px 57px;
+    }
+    .clients img {
+      padding: 33px;
+    }
+    @media (max-width: 400px) {
+      .clients {
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+      }
+    }
+    @media (max-width: 1000px) {
+      .clients {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+      }
+    }
 
+    /* advertise */
+
+  .advertise_background{
+    background:#19283f ;
+  }
    
 
