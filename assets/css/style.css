@@ -235,7 +235,6 @@ header {
   .portfolio { 
     display: flex;
     justify-content: space-evenly;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 50px; 
   }
   .bg-custom:hover {
@@ -519,3 +518,55 @@ font-family: "Roboto";
     margin: auto;
    }
 
+/* read our blog */
+.bg-blog {
+  background: #b8e3f3;
+  height: 125px;
+  width: 368px;  
+
+}
+
+.linija4 {
+  width: 150px;
+  height: 1px;
+  background-color: #00c6bf;
+}
+
+#blog_button {
+  text-align:center;
+  padding-bottom: 55px;
+  padding-top: 60px;
+ 
+}
+
+#blog_button a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffc501;
+  font-weight: 500;
+  font-family: "Roboto";
+  width: 208px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #ff3150;
+  margin: auto;
+  padding: 10px 45px;
+}
+.blog {
+  display:flex;
+  justify-content: center;
+  gap: 50px;
+
+}
+.blog h1 {
+  font-size: 13px;
+color: #a8b9c0;
+font-weight: 400;
+font-family: "Roboto";
+}
+.blog p {
+  font-size: 20px;
+color: #1a2940;
+font-weight: 400;
+font-family: "Roboto";
+}
