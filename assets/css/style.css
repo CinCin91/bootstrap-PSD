@@ -5,7 +5,9 @@
   box-sizing: border-box;
 }
 
-/* header */
+/* Header */
+
+
 header {
   background: #19283f;
 }
@@ -68,12 +70,16 @@ header nav li a {
   text-decoration: none;
   padding: 10px 55px;
 }
-/* services */
 
-#services {
+
+/* We are good at */
+
+
+
+#wearegoodat {
   text-align: center;
 }
-.services {
+#wearegoodat {
   text-align: center;
 }
 
@@ -83,7 +89,7 @@ header nav li a {
   height: 57px;
   margin-bottom: 49px;
 }
-#services h4 {
+#wearegoodat h4 {
   font-size: 35px;
   color: #1a2940;
   font-weight: 500;
@@ -91,7 +97,7 @@ header nav li a {
   margin-bottom: 18px;
 }
 
-#services p {
+#wearegoodat p {
   font-size: 15px;
   color: #a8b9c0;
   font-weight: 400;
@@ -120,16 +126,18 @@ header nav li a {
   top: 41%;
   left: 48%;
 }
-.service1 {
+.wearegood {
   position: relative;
   margin-bottom: 50px;
 }
+
 #broj2 {
   width: 131px;
   height: 194px;
   top: 0;
   left: 0;
 }
+
 #monitor {
   position: absolute;
   width: 71px;
@@ -150,14 +158,16 @@ header nav li a {
   top: 40%;
   left: 44%;
 }
-.naslov {
+
+.design {
   font-size: 20px;
   color: #ffc501;
   font-weight: 500;
   font-family: "Roboto";
   margin-top: 34px;
 }
-.paragraf {
+
+.pallentesqu {
   width: 303px;
   height: 74px;
   font-size: 15px;
@@ -169,7 +179,15 @@ header nav li a {
   margin: auto;
 }
 
-/* porofolio */
+
+
+/* We make this */
+
+
+
+.wemakethis {
+  text-align: center;
+}
 
 .pozadina {
   background: #eff7fa;
@@ -229,25 +247,20 @@ section nav li a {
   color: #ffc501;
   font-weight: 500;
   font-family: "Roboto";
-
   border-radius: 20px;
   background-color: #ff3150;
   text-decoration: none;
   padding: 10px 45px;
 }
-/* stuf about us */
-.linija3 {
-  width: 150px;
-  height: 1px;
-  background-color: #00c6bf;
-}
-.services h4 {
+
+.wemakethis h4 {
   font-size: 35px;
   color: #1a2940;
   font-weight: 500;
   font-family: "Roboto";
 }
-.services p {
+
+.wemakethis p {
   text-align: center;
   font-size: 15px;
   color: #a8b9c0;
@@ -258,26 +271,60 @@ section nav li a {
   margin: 20px auto;
 }
 
-.p {
-  max-width: 386px;
-  height: 151px;
-  font-size: 15px;
-  color: #a8b9c0;
-  font-weight: 300;
+
+/* Some stuff about us */
+
+.somestuff {
+  text-align: center;
+  width: 386px;
+  margin: 0 auto;
+}
+
+.somestuff h4 {
+  font-size: 35px;
+  color: #1a2940;
+  font-weight: 500;
   font-family: "Roboto";
 }
-.parent {
+
+#greatteam {
+font-size: 15px;
+color: #a8b9c0;
+font-weight: 400;
+font-family: "Roboto";
+margin-bottom: 0;
+}
+
+#donecrutrum {
+max-width: 386px !important;
+height: 61px;
+font-size: 15px;
+color: #a8b9c0;
+font-weight: 300;
+font-family: "Roboto";
+text-align: center;
+margin: 0 auto;
+}
+
+.linija3 {
+  width: 150px;
+  height: 1px;
+  background-color: #00c6bf;
+}
+
+.kompjuter {
   position: relative;
   margin: auto;
 }
-.image1 {
+
+.macbook {
   width: 100%;
   position: relative;
 
   height: 405px;
 }
 
-.image2 {
+.screen {
   position: absolute;
   min-height: 70%;
   max-width: 70%;
@@ -291,11 +338,12 @@ section nav li a {
   text-align: center;
   z-index: 1;
 }
+
 @media only screen and (max-width: 1000px) {
   #order_more {
     text-align: center;
     margin-top: 32px;
-  }
+}
 }
 @media only screen and (max-width: 600px) {
   #order_more {
@@ -314,10 +362,26 @@ section nav li a {
     margin: auto;
   }
 }
+
+.retina h4 {
+font-size: 35px;
+color: #1a2940;
+font-weight: 500;
+font-family: "Roboto";
+}
+
+.vestibulum {
+  width: 386px;
+  height: 151px;
+  font-size: 15px;
+  color: #a8b9c0;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+
 #order_more {
   text-align: left;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 #order_more a {
   font-size: 15px;
@@ -329,11 +393,10 @@ section nav li a {
   text-decoration: none;
   padding: 10px 45px;
 }
-.klasa {
-  text-align: center;
-}
 
-/* meeet the team */
+
+/* Meet the team */
+
 
 .pozadina2 {
   background: #eff7fa;
@@ -403,6 +466,7 @@ section nav li a {
   height: auto;
   background-color: #00c6bf;
 }
+
 .card-text {
   padding: 34px 42px;
   text-align: center;
@@ -413,7 +477,11 @@ section nav li a {
   font-weight: 400;
   font-family: "Roboto";
 }
-/* clients */
+
+
+/* Clients */
+
+
 .clients {
   display: flex;
   flex-direction: row;
@@ -440,7 +508,9 @@ section nav li a {
   }
 }
 
-/* advertise */
+
+/* Advertise */
+
 
 .advertise_background {
   background: #19283f;
@@ -481,7 +551,27 @@ section nav li a {
   margin: auto;
 }
 
-/* read our blog */
+
+/* Read our blog */
+
+.readourblog {
+  text-align: center;
+}
+
+.readourblog h4 {
+font-size: 35px;
+color: #1a2940;
+font-weight: 500;
+font-family: "Roboto";
+}
+
+.readourblog p {
+font-size: 15px;
+color: #a8b9c0;
+font-weight: 400;
+font-family: "Roboto";
+}
+
 .bg-blog {
   background: #0c1a1f;
   height: 125px;
@@ -531,3 +621,7 @@ section nav li a {
   font-weight: 400;
   font-family: "Roboto";
 }
+
+
+/* Newsletter */
+
