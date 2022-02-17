@@ -483,7 +483,7 @@ section nav li a {
 
 /* read our blog */
 .bg-blog {
-  background: #b8e3f3;
+  background: #0c1a1f;
   height: 125px;
   width: 368px;
 }
@@ -496,8 +496,9 @@ section nav li a {
 
 #blog_button {
   text-align: center;
-  padding-bottom: 55px;
+  
   padding-top: 60px;
+  margin: 30px;
 }
 
 #blog_button a {
@@ -508,9 +509,9 @@ section nav li a {
   font-family: "Roboto";
   width: 208px;
   height: 45px;
-  border-radius: 20px;
+  border-radius: 20px; 
   background-color: #ff3150;
-  margin: auto;
+  margin:auto;
   padding: 10px 45px;
 }
 .blog {
