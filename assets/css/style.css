@@ -713,8 +713,12 @@ input::placeholder {
 
 /* Footer */
 
-.footer {
+footer {
   background-color: #19283f;
+}
+
+#logofuter {
+  margin-bottom: 30px;
 }
 
 #futerpasus {
@@ -725,6 +729,7 @@ line-height: 30px;
 color: #a8b9c0;
 font-weight: 400;
 font-family: "Roboto";
+margin-bottom: 10px;
 }
 
 #graphpasus {
@@ -732,6 +737,7 @@ font-family: "Roboto";
 color: #a8b9c0;
 font-weight: 400;
 font-family: "Roboto";
+margin-bottom: 10px;
 }
 
 #datumpasus {
@@ -742,12 +748,12 @@ font-family: "Roboto";
 }
 
 #links {
-
 font-size: 15px;
 color: #f0f8fb;
 font-weight: 400;
 font-family: "Roboto";
 text-decoration: none;
+padding-bottom: 10px;
 }
 
 
@@ -757,10 +763,11 @@ color: #a8b9c0;
 font-weight: 400;
 font-family: "Roboto";
 text-decoration: none;
+padding: 10px auto;
 }
 
 #zadugme {
-  font-size: 13px;
+font-size: 13px;
 color: #ffffff;
 font-weight: 400;
 font-family: "Roboto";
@@ -770,4 +777,52 @@ height: 45px;
 border-radius: 20px;
 background-color: #ff3150;
 padding: 15px 115px;
+}
+
+#fejsbuk {
+width: 8px;
+height: 18px;
+color: #ffffff;
+width: 34px;
+height: 34px;
+border-radius: 17px;
+background-color: #347cd2;
+text-align: center;
+padding-top: 9px;
+}
+
+#tviter {
+width: 18px;
+height: 14px;
+color: #ffffff;
+width: 34px;
+height: 34px;
+border-radius: 17px;
+background-color: #1ec4ff;
+text-align: center;
+padding-top: 9px;
+}
+
+#gugl {
+width: 18px;
+height: 18px;
+color: #ffffff;
+width: 34px;
+height: 34px;
+border-radius: 17px;
+background-color: #ff4032;
+text-align: center;
+padding-top: 9px;
+}
+
+#drible {
+width: 18px;
+height: 18px;
+color: #ffffff;
+width: 34px;
+height: 34px;
+border-radius: 17px;
+background-color: #ff3298;
+text-align: center;
+padding-top: 9px;
 }
