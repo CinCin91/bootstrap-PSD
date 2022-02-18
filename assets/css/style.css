@@ -586,9 +586,9 @@ font-family: "Roboto";
 
 #blog_button {
   text-align: center;
-  
   padding-top: 60px;
-  margin: 30px;
+  padding-bottom: 50px;
+  margin: 50px 50px 0 50px;
 }
 
 #blog_button a {
@@ -625,3 +625,149 @@ font-family: "Roboto";
 
 /* Newsletter */
 
+
+.bg-warning {
+  padding-top: 30px;
+  height: 90px;
+}
+
+
+.newslet {
+  width: 440px;
+  padding-top: 20px 40px;
+}
+
+#subscribe {
+  width: 440px;
+  font-size: 20px;
+  color: #1a2940;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: end;
+  
+}
+
+#emailspace {
+  width: 440px;
+  font-size: 15px;
+  color: #f0f8fb;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: start;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  margin-left: 10px;
+}
+
+#undelineemail {
+  color: #f0f8fb;
+  height: 1px;
+  opacity: 0.8;
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+input::placeholder {
+  color: #f0f8fb !important;
+}
+
+
+#subbutton {
+  font-size: 15px;
+  color: #ffc501;
+  font-weight: 500;
+  font-family: "Roboto";
+  width: 198px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #19283f;
+  padding: 10px 60px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #subscribe {
+    text-align: center;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .newsletter {
+   margin: auto;
+   text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .bg-warning {
+    height:fit-content;
+    padding-bottom: 20px;
+    margin: auto;
+  }
+}
+
+
+/* Footer */
+
+.footer {
+  background-color: #19283f;
+}
+
+#futerpasus {
+  width: 368px;
+height: 74px;
+font-size: 13px;
+line-height: 30px;
+color: #a8b9c0;
+font-weight: 400;
+font-family: "Roboto";
+}
+
+#graphpasus {
+  font-size: 13px;
+color: #a8b9c0;
+font-weight: 400;
+font-family: "Roboto";
+}
+
+#datumpasus {
+font-size: 13px;
+color: #a8b9c0;
+font-weight: 400;
+font-family: "Roboto";
+}
+
+#links {
+
+font-size: 15px;
+color: #f0f8fb;
+font-weight: 400;
+font-family: "Roboto";
+text-decoration: none;
+}
+
+
+#elementiliste {
+font-size: 13px;
+color: #a8b9c0;
+font-weight: 400;
+font-family: "Roboto";
+text-decoration: none;
+}
+
+#zadugme {
+  font-size: 13px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Roboto";
+text-decoration: none;
+width: 370px;
+height: 45px;
+border-radius: 20px;
+background-color: #ff3150;
+padding: 15px 115px;
+}
