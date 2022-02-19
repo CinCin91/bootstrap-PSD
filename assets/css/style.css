@@ -381,16 +381,32 @@ margin: 0 auto;
   z-index: 1;
 }
 
-@media only screen and (max-width: 1100) {
+@media only screen and (max-width: 900px) {
   #order_more {
+    width: 200px;
     text-align: center !important;
+    margin-top: 20px;
    
 }
 }
 @media only screen and (max-width: 600px) {
   #order_more {
-    text-align: center !important;
-    margin-top: 20px;
+    width: 200px;
+    margin-top: 10px;
+    
+  }
+}
+.retina {
+  text-align: left;
+  max-width: auto;
+}
+@media only screen and (max-width: 600px) {
+  .retina {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    font-size: 0.5rem;
   }
 }
 
@@ -415,7 +431,7 @@ font-family: "Roboto";
 
 .vestibulum {
   width: auto;
-  height: 151px;
+  height: auto;
   font-size: 15px;
   color: #a8b9c0;
   font-weight: 300;
@@ -434,7 +450,7 @@ font-family: "Roboto";
   border-radius: 20px;
   background-color: #ff3150;
   text-decoration: none;
-  padding: 10px 45px;
+  padding: 10px 25px;
 }
 
 
