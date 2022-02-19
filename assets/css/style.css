@@ -302,7 +302,7 @@ font-family: "Roboto";
 
 .somestuff {
   text-align: center;
-  width: 386px;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -373,7 +373,8 @@ margin: 0 auto;
 }
 @media only screen and (max-width: 600px) {
   #order_more {
-    margin: 0;
+    text-align: center !important;
+    margin-top: 20px;
   }
 }
 
@@ -397,7 +398,7 @@ font-family: "Roboto";
 }
 
 .vestibulum {
-  width: 386px;
+  width: auto;
   height: 151px;
   font-size: 15px;
   color: #a8b9c0;
@@ -656,15 +657,18 @@ font-family: "Roboto";
   padding-top: 30px;
   
 }
-
+.newsletter {
+  display: flex;
+  justify-content: space-around;
+}
 
 .newslet {
-  width: 440px;
+  max-width: 400px;
   padding-top: 20px 40px;
 }
 
 #subscribe {
-  width: 440px;
+  width: auto;
   font-size: 20px;
   color: #1a2940;
   font-weight: 400;
@@ -674,7 +678,7 @@ font-family: "Roboto";
 }
 
 #emailspace {
-  width: 440px;
+  width: auto;
   font-size: 15px;
   color: #f0f8fb;
   font-weight: 400;
@@ -690,7 +694,7 @@ font-family: "Roboto";
   color: #f0f8fb;
   height: 1px;
   opacity: 0.8;
-  margin-left: 20px;
+  margin-left: 0;
   margin-top: 0;
 }
 
@@ -728,11 +732,12 @@ input::placeholder {
   }
 }
 
-@media (max-width: 600px) {
-  .bg-warning {
-    height:fit-content;
-    padding-bottom: 20px;
-    margin: auto;
+@media (max-width: 900px) {
+  .newsletter {
+    display: flex;
+   
+    
+    
   }
 }
 
@@ -742,6 +747,12 @@ input::placeholder {
 
 footer {
   background-color: #19283f;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  
 }
 
 #logofuter {
@@ -803,7 +814,7 @@ width: 370px;
 height: 45px;
 border-radius: 20px;
 background-color: #ff3150;
-padding: 15px 115px;
+padding: 15px 50px;
 }
 
 #fejsbuk {
